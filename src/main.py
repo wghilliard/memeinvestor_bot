@@ -229,7 +229,8 @@ def calculate(new, old):
     du = new - old
     
     """
-    Investment return multiplier is detemined by a power function of the change in upvotes since the investment was made.
+    Investment return multiplier is determined by a power function of the change in upvotes since the investment was 
+    made.
     The coefficients of this function were originally set to emulate the old if-else block method for determining 
     investment return, but have now been changed to set the break-even point at +500 upvotes since the investment was made.
     Functional form: y = A*x^m ;
